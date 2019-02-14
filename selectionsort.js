@@ -1,7 +1,4 @@
 
-//-----------------------------------------------------------
-// FUNCTION selectionSort
-//-----------------------------------------------------------
 function selectionSort(data)
 {
     let data_length = data.length;
@@ -29,9 +26,7 @@ function selectionSort(data)
     output("Sorted!");
 }
 
-//--------------------------------------------------------
-// FUNCTION swap
-//--------------------------------------------------------
+
 function swap(data, i1, i2)
 {
     if(i1 != i2)
@@ -42,9 +37,7 @@ function swap(data, i1, i2)
     }
 }
 
-//--------------------------------------------------------
-// FUNCTION findLowestIndex
-//--------------------------------------------------------
+
 function findLowestIndex(data, start)
 {
     let lowest_index = start;
@@ -60,9 +53,7 @@ function findLowestIndex(data, start)
     return lowest_index;
 }
 
-//--------------------------------------------------------
-// FUNCTION printData
-//--------------------------------------------------------
+
 function printData(data, sorted_to)
 {
     let n;
